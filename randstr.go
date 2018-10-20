@@ -7,6 +7,8 @@ import (
 	mathrand "math/rand"
 )
 
+// Please can we tag properly?
+
 func Byte(n int) []byte {
 	b := make([]byte, n)
 	_, err := rand.Read(b)
